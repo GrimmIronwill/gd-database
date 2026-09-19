@@ -27,6 +27,9 @@ var _current_table_name: String = ""
 func set_plugin(p: EditorPlugin) -> void:
 	_plugin = p
 
+func get_current_database() -> DBDatabase:
+	return _database
+
 func _ready() -> void:
 	_build_ui()
 

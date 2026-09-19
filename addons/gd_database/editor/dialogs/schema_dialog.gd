@@ -3,7 +3,7 @@ extends Window
 class_name SchemaDialog
 ## Создаёт новую схему (таблицу) или редактирует существующую.
 
-## const FieldDialog = preload("res://editor/dialogs/field_dialog.gd")
+const FieldDialog = preload("res://addons/gd_database/editor/dialogs/field_dialog.gd")
 
 signal schema_created(result: Array)    # [DBSchema, table_name]
 signal schema_changed(result: Array) # [old_table_name, new_table_name]

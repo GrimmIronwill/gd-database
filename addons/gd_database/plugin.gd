@@ -4,6 +4,7 @@ var _editor_panel: Control = null
 
 func _enter_tree() -> void:
 	_editor_panel = DatabaseEditor.new()
+	_editor_panel.name = "GDDatabaseEditor"
 	_editor_panel.set_plugin(self)
 	add_control_to_bottom_panel(_editor_panel, "GD Database")
 	print("[GD Database] Plugin loaded.")

@@ -1,5 +1,4 @@
 @tool
-class_name FieldDialog
 extends Window
 ## Всплывающее окно для добавления или редактирования DBFieldDef.
 
